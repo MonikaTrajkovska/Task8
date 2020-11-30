@@ -1,0 +1,165 @@
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(187, 187, 187);
+    
+}
+.first-div{
+   width: 58%;
+    max-height: 550px;
+  border: 1px solid black;
+    background-color: white;
+    overflow:auto;
+   position: absolute;
+   padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    margin: 0px auto;
+  
+
+}
+.first-title{
+
+   font-size: 20px;
+
+   font-weight: bold;
+   margin:5px;
+   text-align: center;
+}
+.second-title{
+    
+    font-size: 18px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    margin-top: 0px;
+}
+
+.img1{
+    width:260px;
+    height:250px;
+     float: top; 
+    margin-left: -30px;
+    
+}
+.third-div{
+    margin-top: -10px;
+     overflow: hidden; 
+     width:240px; 
+     height: 380px;
+     background-color: rgb(248, 218, 224);
+    
+    
+}
+
+.fourth-div{
+float: right;
+color: grey;
+    overflow: hidden;
+
+    font-size: 18px;
+     width: 74%;
+
+      
+  }
+.fifth-div{
+    margin-top: 15px;
+    font-size: 18px;
+    color: rgb(71, 71, 71);
+    line-height: normal;
+    
+}
+img{
+    width: 25%;
+    height: auto;
+    float: left;
+ 
+    padding: 0px;
+    margin: 0px;
+}
+
+.first-paragraph{
+    margin-top: -3px;
+    margin-left: 8px;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+#second-paragraph{
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+input{
+  
+    background-color:rgb(233, 232, 232);
+    border:2px solid rgb(248, 218, 224);
+    width: 72%;
+    margin: 0px;
+    height: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+button{
+
+ 
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: -5px;
+   width: 28%;
+   white-space: normal;
+    border-left:0px;
+    height: 35px;
+  
+    border:2px solid rgb(248, 218, 224);
+    background-color: rgb(248, 218, 224);
+}
+@media screen and (max-width: 600px) {
+    .third-div,.fourth-div,.first-div{ 
+       display: inline-block;
+     float: none;
+     margin-right:0;
+    
+     margin-top: 5px;
+     width:auto;
+     height: auto;
+     border:0;
+     border-bottom:2px solid #000;    
+   }
+ }
+   /* @media screen and (max-width: 600px) {
+    .first-title{ 
+      
+        white-space: initial;
+    text-overflow: initial;
+
+ margin-top: 370px;
+  
+   }
+ } 
+  @media screen and (max-width: 600px) {
+    .second-title{ 
+     
+        white-space: initial;
+    text-overflow: initial;
+ 
+ margin-bottom: -10px;
+ 
+   }
+ }   */
+ @media screen and (max-width: 600px) {
+    button{ 
+    
+ /* padding: 8px; */
+display: inline-block;
+/* margin: auto; */ 
+ padding: 13px;
+
+white-space: nowrap;
+float: none; 
+font-size: 8px;  
+   }
+ }
